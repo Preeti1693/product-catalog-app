@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    DOCKERHUB_USER = 'yourusername'
+    DOCKERHUB_USER = 'preeti1693'
   }
   stages {
     stage('Checkout') {

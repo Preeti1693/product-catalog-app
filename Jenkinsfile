@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/Preeti1693/product-catalog-app.git'
+        git branch: 'main', url: 'https://github.com/Preeti1693/product-catalog-app.git'
       }
     }
     stage('Build Docker Image') {
